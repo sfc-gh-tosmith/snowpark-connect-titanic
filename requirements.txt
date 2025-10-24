@@ -1,0 +1,3 @@
+snowflake-dataframe-processor==0.22.1
+snowflake-snowpark-python
+pyspark
