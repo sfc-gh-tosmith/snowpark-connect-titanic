@@ -1,5 +1,11 @@
 # Snowpark Connect for Spark - Iceberg Integration Project
 
+## TL;DR
+### AWS Glue running Spark: 30 minutes
+
+### Snowflake running same code: 4.5 minutes
+
+## Intro
 This project demonstrates running Apache Spark workloads on Snowflake using **Snowpark Connect for Spark** with **Apache Iceberg™** tables managed by AWS Glue Catalog.
 
 ## Overview
