@@ -1,9 +1,9 @@
-# Snowpark Connect for Spark - Iceberg Integration Project
+# Snowpark Connect for Spark on Glue-managed Iceberg
 
 ## TL;DR
-### AWS Glue running Spark: 30 minutes
+### AWS Glue running Spark: 30 minutes. 10 G.2x workers
 
-### Snowflake running same code: 4.5 minutes
+### Snowflake running same code: 4.5 minutes. 1 Medium WH
 
 ## Intro
 This project demonstrates running Apache Spark workloads on Snowflake using **Snowpark Connect for Spark** with **Apache Iceberg™** tables managed by AWS Glue Catalog.
@@ -14,10 +14,13 @@ This repository contains scripts that showcase enterprise-grade Spark patterns (
 
 ### Key Components
 
+- **`tpch_snowpark_connect_script.py`**: Main transformation script demonstrating complex Spark operations on Snowflake
+- **`tpch_glue_script.py`**: Original TPCH-100 AWS Glue script (for comparison)
 - **`titanic_snowpark_connect_script.py`**: Main transformation script demonstrating complex Spark operations on Snowflake
 - **`snowpark_connect_test.py`**: Simple connectivity test script for Snowpark Connect
 - **`titanic_snowflake.csv`**: Sample Titanic dataset
-- **`titanic_glue_script.py`**: Original AWS Glue script (for comparison)
+- **`titanic_glue_script.py`**: Original titanic AWS Glue script (for comparison)
+
 
 ## Prerequisites
 
